@@ -1,5 +1,5 @@
 # OPENCLASSROOMS PROJECT#2 - [OCP2]
-# 'CHALETS&CAVIAR'
+# 'CHALETS & CAVIAR'
 \
 *ENGLISH*
 ### TOPIC : Integrate a WordPress website for a real estate agency based in Courchevel, France
