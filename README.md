@@ -16,7 +16,7 @@
 2. Write a documentation for non expert users
 3. Select a WordPress theme fitted to the client's needs
 
-**Date of project's validation :**
+**Date of validation :**
 - January 23rd 2019
 
 **Eximaner's comment :**
