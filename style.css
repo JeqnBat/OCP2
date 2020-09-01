@@ -1,0 +1,91 @@
+/*
+Theme Name: sydney-child
+Template: sydney
+Theme URI: https://athemes.com/theme/sydney
+Author: aThemes
+Author URI: https://athemes.com
+Description: Sydney is a powerful business theme that provides a fast way for companies or freelancers to create an awesome online presence. As well as being fully compatible with Elementor, Sydney brings plenty of customization possibilities like access to all Google Fonts, full color control, layout control, logo upload, full screen slider, header image, sticky navigation and much more. Also, Sydney provides all the construction blocks you need to rapidly create an engaging front page.
+Version: 1.52
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+Tags: two-columns, right-sidebar, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Sydney is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+*/
+
+/* MAIN MENU CUSTOMIZATION
+________________________________________ */
+/* White links w/ raleway font */
+#mainnav ul li a {
+  position: relative;
+  font-size: 16px !important;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+}
+/* Main Menu hover */
+#mainnav ul li a:hover {
+  color: white !important;
+  text-decoration: underline overline !important;
+}
+/* Fix responsive menu default visibility on custom pages */
+#mainnav-mobi {
+  display:none;
+}
+
+/* MAIN PAGE CHANGES
+________________________________________ */
+/* Hide WP credentials below the footer */
+#colophon {
+	display: none;
+}
+/* Bigger logo */
+.site-logo {
+  max-height: 100%!important;
+}
+/* Bigger title */
+.text-slider .maintitle {
+  font-size: 70px!important;
+}
+/* Stylize site map UL */
+.elementor-widget-container ul, ul a, h5 {
+  color: white;
+}
+.elementor-widget-container ul a:hover {
+  color: #C23131;
+}
+/* White logo & menu for desktop version */
+.invert {
+  filter: invert(0);
+}
+
+/* RESPONSIVE SETTINGS
+________________________________________ */
+/* Replace SVG file for responsive button menu */
+.customMenuButton {
+  font-style: normal;
+  font-family: arial;
+  font-size: 3rem;
+  font-weight: bold;
+  transform: rotate(90deg);
+}
+/* Desktop only */
+@media only screen and (min-width: 1025px) {
+  /* Push homepage categories under the viewport */
+  .header-slider {
+    height: 105vh!important;
+  }
+  /* Title vertical alignement */
+  .slide-inner {
+    top: 60%!important;
+  }
+  /* Invert header colors for custom pages */
+  .invert {
+    filter: invert(1);
+  }
+}
