@@ -35,6 +35,7 @@
 ### SUJET : Intégrer une thème WordPress pour une agence immobilière basée à Courchevel.
 **Consignes & instructions :**
 >L'agence immobilière “Chalets et caviar” de Courchevel possède une quinzaine de chalets de luxe à la vente et une vingtaine en location. Cependant, elle ne possède pas encore de site web pour promouvoir la vente et la location de ses chalets. C’est pour cette raison qu’elle fait appel à vous.
+
 **Livrables :**
 - Code HTML / CSS / PHP complet du projet 
 - L'adresse du site web
